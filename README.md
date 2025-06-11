@@ -1,102 +1,103 @@
-# 🌐 Ecozy — Your Voice. Echoed.
+🌐 Ecozy — Your Voice. Echoed.
+Ecozy is a modern social media platform where your voice echoes and the world listens. Built with React, Node.js, Express, and MongoDB, it offers a responsive, privacy-conscious space for real-time expression, community building, and seamless interaction.
 
-Ecozy is a modern social media platform where your voice echoes and the world listens. Designed with React, Node.js, Express, and MongoDB, it delivers a responsive, privacy-conscious space for real-time expression, community building, and seamless interaction.
+<div align="center">
 
-🌐 Ecozy — Features 
+
+
+
+
+</div>
+🚀 Features
 👤 User Authentication
-Register, login, and logout functionality.
+Register, login, and logout.
 
-JWT-based authentication to securely manage sessions.
+JWT-based authentication for secure sessions.
 
-Password encryption and secure storage.
+Password encryption with bcrypt.
 
 🏠 Personalized Feed
-View posts from other users in a clean, chronological feed.
+View posts from other users in a clean, chronological layout.
 
-Like, comment, and interact with posts.
+Like and comment on posts in real-time.
 
 ✍️ Create & Manage Posts
-Add posts with text, location, and optional images.
+Create posts with text, location, and optional images.
 
-Edit or delete your own posts.
+Edit or delete your own posts seamlessly.
 
 🤝 Friends / Connections
-View other users and send friend requests.
+Browse and search for users.
 
-Accept/remove friends.
+Send, accept, or remove friend requests.
 
-See your friends’ posts on your timeline.
+View friends’ posts in your main feed.
 
 📸 Profile System
-View your profile or others’ profiles.
+View your own or others’ profile pages.
 
 Upload a profile picture.
 
-Update your bio or location.
+Edit bio, location, and account details.
 
-🗂️ Responsive Dashboard
-Accessible on desktop and mobile.
+🖥️ Responsive UI
+Mobile and desktop-friendly layout.
 
-User-friendly layout using Material UI (MUI) components.
+Built with Material UI (MUI) for a sleek interface.
 
 🌈 UI/UX Highlights
-Built using React + Redux for state management.
+Light/Dark mode toggle.
 
-Theming with light/dark mode toggle.
+State management with Redux.
 
 Smooth animations and transitions.
 
 ⚙️ Backend Functionality
-RESTful API built with Express.js.
+RESTful APIs with Express.js.
 
-MongoDB database to store users, posts, likes, and friendships.
+MongoDB for storing users, posts, and friends.
 
-Secure route protection using JWTs.
+Protected routes using JWT middleware.
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
+Layer	Technologies
+Frontend	React, Redux, Material UI (MUI)
+Backend	Node.js, Express.js
+Database	MongoDB with Mongoose
+Authentication	JWT, Bcrypt
+File Uploads	Multer (server), FormData (client)
+Deployment	(Optional) Render, Vercel, Netlify
 
-| Layer        | Tech Used                              |
-|--------------|----------------------------------------|
-| Frontend     | React, Redux, Material-UI (MUI)        |
-| Backend      | Node.js, Express                       |
-| Database     | MongoDB with Mongoose ODM              |
-| Authentication | JWT, Bcrypt                          |
-| Image Upload | Multer (server), FormData (client)     |
-| Deployment   | (Optional) Render / Vercel / Netlify   |
-
----
-
-## 📁 Folder Structure
-
+📁 Project Structure
+perl
+Copy
+Edit
 Ecozy/
-├── client/ # React frontend
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── state/
-├── server/ # Express backend
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ └── index.js
+├── client/              # React frontend
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── state/
+├── server/              # Express backend
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── index.js
 └── README.md
+🧑‍💻 Getting Started
+📦 Prerequisites
+Node.js ≥ 16
 
+npm or yarn
 
----
+MongoDB locally or MongoDB Atlas
 
-## 🧑‍💻 Getting Started
-
-### Prerequisites
-
-- Node.js ≥ 16
-- npm or yarn
-- MongoDB installed or cloud URI (e.g. MongoDB Atlas)
-
-### Installation
-
-```bash
-# Clone the repo
+⚙️ Installation
+bash
+Copy
+Edit
+# Clone the repository
 git clone https://github.com/TMR2005/Ecozy.git
 cd Ecozy
 
@@ -108,23 +109,28 @@ npm install
 cd ../client
 npm install
 
-# Start the backend
-cd server
+# Start the backend server
+cd ../server
 npm start
 
-# Start the frontend
+# Start the frontend client
 cd ../client
 npm start
-```
-📷 Screenshots
-Login
-![image](https://github.com/user-attachments/assets/98b4cd59-67f5-4cc3-810a-6e23c689c2bf)
-HomePage with posts of other users.
-![image](https://github.com/user-attachments/assets/92f08bac-3fce-43ce-9a2a-45441239a026)
-UserPage showing Posts and details of the specific user
-![image](https://github.com/user-attachments/assets/170d781f-75b5-4e55-8624-4d8fe86c8f0f)
+🖼️ Screenshots
+🔐 Login
 
 
+🏠 Home Page with Posts
 
 
+🙍‍♂️ User Profile Page
 
+
+📌 Future Enhancements (Optional)
+Real-time chat/messaging system.
+
+Notification system for likes, comments, and friend requests.
+
+Explore page with trending content.
+
+Admin dashboard for user and content moderation.
