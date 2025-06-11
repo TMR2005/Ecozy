@@ -108,7 +108,7 @@ npm start
 ![image](https://github.com/user-attachments/assets/51e6db9b-8d00-4c54-b4d1-2b79b752af11)
 ---
 
-📌# Future Enhancements.
+## 📌 Future Enhancements.
 -Real-time chat/messaging system.
 
 -Notification system for likes, comments, and friend requests.
