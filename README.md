@@ -93,6 +93,7 @@ node index.js
 cd client
 npm start
 ```
+---
 
 📷 Screenshots
 🔐 Login
@@ -105,9 +106,7 @@ npm start
 
 🙍‍♂️ User Profile Page
 ![image](https://github.com/user-attachments/assets/51e6db9b-8d00-4c54-b4d1-2b79b752af11)
-
-
-
+---
 
 📌# Future Enhancements.
 -Real-time chat/messaging system.
