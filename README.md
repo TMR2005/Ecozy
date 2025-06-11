@@ -1,4 +1,4 @@
-## 🌐 Ecozy — Your Voice. Echoed.
+### 🌐 Ecozy — Your Voice. Echoed.
 Ecozy is a modern social media platform where your voice echoes and the world listens. Built with React, Node.js, Express, and MongoDB, it offers a responsive, privacy-conscious space for real-time expression, community building, and seamless interaction.
 
 <div align="center">
