@@ -109,13 +109,13 @@ npm start
 
 
 
-📌 Future Enhancements.
-Real-time chat/messaging system.
+📌# Future Enhancements.
+-Real-time chat/messaging system.
 
-Notification system for likes, comments, and friend requests.
+-Notification system for likes, comments, and friend requests.
 
-Explore page with trending content.
+-Explore page with trending content.
 
-Admin dashboard for user and content moderation.
+-Admin dashboard for user and content moderation.
 
 
