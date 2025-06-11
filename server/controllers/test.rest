@@ -1,0 +1,23 @@
+###
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "password": "securePassword123",
+  "picturePath": "profile.jpg",
+  "friends": [],
+  "location": "New York",
+  "occupation": "Software Engineer"
+}
+###
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "john.doe@example.com",
+  "password": "securePassword123"
+}
+###
