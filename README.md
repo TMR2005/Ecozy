@@ -95,16 +95,17 @@ npm start
 ```
 ---
 
-📷 Screenshots
-🔐 Login
+## 📷 Screenshots
+
+### 🔐 Login
 ![image](https://github.com/user-attachments/assets/19308b80-fa42-4290-9dcc-8bff633bb7b0)
 
 
-🏠 Home Page with Posts
+### 🏠 Home Page with Posts
 ![image](https://github.com/user-attachments/assets/a78d01c0-1fb8-4de2-b929-f809de6589a0)
 
 
-🙍‍♂️ User Profile Page
+### 🙍‍♂️ User Profile Page
 ![image](https://github.com/user-attachments/assets/51e6db9b-8d00-4c54-b4d1-2b79b752af11)
 ---
 
