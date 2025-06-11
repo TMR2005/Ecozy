@@ -2,33 +2,56 @@
 
 Ecozy is a modern social media platform where your voice echoes and the world listens. Designed with React, Node.js, Express, and MongoDB, it delivers a responsive, privacy-conscious space for real-time expression, community building, and seamless interaction.
 
----
+🌐 Ecozy — Features 
+👤 User Authentication
+Register, login, and logout functionality.
 
-## 🚀 Features
+JWT-based authentication to securely manage sessions.
 
-### 🧑‍🤝‍🧑 Social Interactions
-- Create posts with text and images
-- Like and comment on other users' posts
-- View a feed of posts from people you follow
+Password encryption and secure storage.
 
-### 🙋‍♂️ User Profiles
-- Upload profile pictures
-- View other users' bios and location
-- Add or remove friends
+🏠 Personalized Feed
+View posts from other users in a clean, chronological feed.
 
-### 🔐 Authentication
-- Secure login & registration with JWT
-- Redux-managed session state
+Like, comment, and interact with posts.
 
-### 🖼️ Media Uploads
-- Post and profile image uploads via Multer
-- Static file storage for media content
+✍️ Create & Manage Posts
+Add posts with text, location, and optional images.
 
-### 📱 Responsive UI
-- Built with Material-UI (MUI)
-- Mobile and desktop friendly
+Edit or delete your own posts.
 
----
+🤝 Friends / Connections
+View other users and send friend requests.
+
+Accept/remove friends.
+
+See your friends’ posts on your timeline.
+
+📸 Profile System
+View your profile or others’ profiles.
+
+Upload a profile picture.
+
+Update your bio or location.
+
+🗂️ Responsive Dashboard
+Accessible on desktop and mobile.
+
+User-friendly layout using Material UI (MUI) components.
+
+🌈 UI/UX Highlights
+Built using React + Redux for state management.
+
+Theming with light/dark mode toggle.
+
+Smooth animations and transitions.
+
+⚙️ Backend Functionality
+RESTful API built with Express.js.
+
+MongoDB database to store users, posts, likes, and friendships.
+
+Secure route protection using JWTs.
 
 ## 🛠️ Tech Stack
 
@@ -92,8 +115,16 @@ npm start
 # Start the frontend
 cd ../client
 npm start
-```bash
-
+```
 📷 Screenshots
+Login
+![image](https://github.com/user-attachments/assets/98b4cd59-67f5-4cc3-810a-6e23c689c2bf)
+HomePage with posts of other users.
+![image](https://github.com/user-attachments/assets/92f08bac-3fce-43ce-9a2a-45441239a026)
+UserPage showing Posts and details of the specific user
+![image](https://github.com/user-attachments/assets/170d781f-75b5-4e55-8624-4d8fe86c8f0f)
+
+
+
 
 
